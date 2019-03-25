@@ -11,9 +11,9 @@ Scalability
                      Hierarchical Task Network
  
  
-#TYPES OF AI
+/TYPES OF AI
 
-##General terms 
+//General terms 
 Agents
 A game entity that tries to achieve a goal.
 
