@@ -1,8 +1,8 @@
 “I am Marc Doctor, student of the Bachelor’s Degree in Video Games by UPC at CITM. This content is generated for the second year’s subject Project 2, under supervision of lecturer Ricard Pillosu.”
  
-/TYPES OF AI
+/ TYPES OF AI
 
-//General terms 
+// General terms 
 Agents
 A game entity that tries to achieve a goal.
 
