@@ -1,1 +1,2 @@
-# thedoctormarc.github.io
+
+# Types of AI 
