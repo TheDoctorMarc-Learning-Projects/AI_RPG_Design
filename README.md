@@ -98,10 +98,11 @@ Visualized AI refers to any hint given by the game of NPCs actions or behaviour.
 
 ## To Avoid: 
 **“Metagaming”** : when a player uses knowledge not in disposition of the character (s)he controls in order to succeed in the gameplay. 
->An example would be when you complete a level, and afterwards you go back with the purpose of grinding. Then, you, the player, already know where is every enemy, and how to defeat it, so it breaks the believability. 
->How to avoid it: as a developer you could perfectly: 
-alter the location of (some) enemies every time the player re-enters the level, or even just 
-swap the location of groups of enemies. 
+An example would be when you complete a level, and afterwards you go back with the purpose of grinding. Then, you, the player, already know where is every enemy, and how to defeat it, so it breaks the believability. 
+
+**How to avoid it:** as a developer you could perfectly: 
+A) alter the location of (some) enemies every time the player re-enters the level, or even just 
+B) swap the location of groups of enemies. 
 This way, the game keeps the surprise factor (tension), with the character and the player at the same time. 
 
  
@@ -125,7 +126,8 @@ There are three concepts regarding enemy themes in video games:
 This enemy is neither a boss, nor a common enemy, but rather more similar to a mini-boss. 
 Normally, it is a recurring enemy template, that appears in various phases of the game and that has a set of traits that persist throughout the different manifestations of itself. 
 These enemies have a relation to the game’s lore and atmosphere, and can even be a part of it. 
-> An example would be the trolls of God of War (...) 
+
+An example would be the trolls of God of War (...) 
                                         the Big Daddies of Bioshock (...) 
                                         the typical “elementals” in any game (fire, ice, etc) 
                                         
