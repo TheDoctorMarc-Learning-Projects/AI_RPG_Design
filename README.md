@@ -62,7 +62,7 @@ Vendors are placed in a building, indoors, whilst QuestGivers are located outdoo
 
 **3)** They can be classified in the **“Act React Interact”** model: 
 
-
+<img src=https://raw.githubusercontent.com/thedoctormarc/AI_RPG_Design/master/Images/actreactetc.PNG>
 **Act:** NPCs that fall inside this category are programmed in an unidirectional manner: they only care about the player, and they have a very specific mission with almost no room for behaviour changes.  
 
 **React:** Combat-related NPCs that follow a simple conduct pattern: perceive a stimulus, decide a plan, and react to it, in a hostile manner in the case of enemies.  Thus, the main difference is that they need to be almost constantly aware of the player’s actions, and, furthermore, of other enemies actions. 
@@ -293,17 +293,17 @@ This is an advanced example of conditions that trigger a plan: the group strengt
 # References 
 
 [AI Players](http://virt10.itu.chalmers.se/index.php/AI_Players)
-[Algorithmic Agents](http://virt10.itu.chalmers.se/index.php/Algorithmic_Agents
-[Agents](http://virt10.itu.chalmers.se/index.php/Agents  
-[Thematic Consistency](http://virt10.itu.chalmers.se/index.php/Thematic_Consistency
-[HTN](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.103.4477&rep=rep1&type=pdf
-[Behaviour and Design](http://www.diva-portal.org/smash/get/diva2:561201/FULLTEXT01.pdf
-[HTN](http://www.gameaipro.com/GameAIPro/GameAIPro_Chapter12_Exploring_HTN_Planners_through_Example.pdf 
-[Group Code Behaviour](https://pdfs.semanticscholar.org/2661/4b67383dbd30299aa3336f17f58afcb3f3f5.pdf
-[Themed enemy groups](https://michaelripplinger.com/2018/11/21/whats-an-rpg-without-a-themed-enemy-group/ 
-[Random Encounters](https://www.giantbomb.com/random-encounter/3015-123/ 
-[Unit FOV]https://www.oreilly.com/library/view/ai-for-game/0596005555/ch04.html 
-[Rule vs Learning System]https://www.tricentis.com/artificial-intelligence-software-testing/ai-approaches-rule-based-testing-vs-learning/ 
+[Algorithmic Agents](http://virt10.itu.chalmers.se/index.php/Algorithmic_Agents)
+[Agents](http://virt10.itu.chalmers.se/index.php/Agents) 
+[Thematic Consistency](http://virt10.itu.chalmers.se/index.php/Thematic_Consistency) 
+[HTN](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.103.4477&rep=rep1&type=pdf)
+[Behaviour and Design](http://www.diva-portal.org/smash/get/diva2:561201/FULLTEXT01.pdf)
+[HTN](http://www.gameaipro.com/GameAIPro/GameAIPro_Chapter12_Exploring_HTN_Planners_through_Example.pdf) 
+[Group Code Behaviour](https://pdfs.semanticscholar.org/2661/4b67383dbd30299aa3336f17f58afcb3f3f5.pdf)
+[Themed enemy groups](https://michaelripplinger.com/2018/11/21/whats-an-rpg-without-a-themed-enemy-group/) 
+[Random Encounters](https://www.giantbomb.com/random-encounter/3015-123/)
+[Unit FOV]https://www.oreilly.com/library/view/ai-for-game/0596005555/ch04.html) 
+[Rule vs Learning System]https://www.tricentis.com/artificial-intelligence-software-testing/ai-approaches-rule-based-testing-vs-learning/)
 
 
 
