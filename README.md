@@ -288,6 +288,21 @@ If a condition of a plan is not valid, the plan is discarded and the planning pr
 This is an advanced example of conditions that trigger a plan: the group strength, the player direction and the distance to the player. This scheme is a simple ampliation of two conditions (player direction and position) proper of a single-enemy scheme, but with the added group strength. 
 
 
+# References 
+
+[AI Players](http://virt10.itu.chalmers.se/index.php/AI_Players)
+[Algorithmic Agents](http://virt10.itu.chalmers.se/index.php/Algorithmic_Agents
+[Agents](http://virt10.itu.chalmers.se/index.php/Agents  
+[Thematic Consistency](http://virt10.itu.chalmers.se/index.php/Thematic_Consistency
+[HTN](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.103.4477&rep=rep1&type=pdf
+[Behaviour and Design](http://www.diva-portal.org/smash/get/diva2:561201/FULLTEXT01.pdf
+[HTN](http://www.gameaipro.com/GameAIPro/GameAIPro_Chapter12_Exploring_HTN_Planners_through_Example.pdf 
+[Group Code Behaviour](https://pdfs.semanticscholar.org/2661/4b67383dbd30299aa3336f17f58afcb3f3f5.pdf
+[Themed enemy groups](https://michaelripplinger.com/2018/11/21/whats-an-rpg-without-a-themed-enemy-group/ 
+[Random Encounters](https://www.giantbomb.com/random-encounter/3015-123/ 
+[Unit FOV]https://www.oreilly.com/library/view/ai-for-game/0596005555/ch04.html 
+[Rule vs Learning System]https://www.tricentis.com/artificial-intelligence-software-testing/ai-approaches-rule-based-testing-vs-learning/ 
+
 
 
 
