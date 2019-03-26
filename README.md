@@ -303,9 +303,9 @@ If a condition of a plan is not valid, the plan is discarded and the planning pr
 
 This is an advanced example of conditions that trigger a plan: the group strength, the player direction and the distance to the player. This scheme is a simple ampliation of two conditions (player direction and position) proper of a single-enemy scheme, but with the added group strength. 
 
-**Group Strenth:**
+**Group Strength:**
 
-<img src=https://raw.githubusercontent.com/thedoctormarc/AI_RPG_Design/master/Images/group_Strenght.PNG.jpg>
+<img src=https://raw.githubusercontent.com/thedoctormarc/AI_RPG_Design/master/Images/group_Strenght.PNG>
 
 # References 
 
