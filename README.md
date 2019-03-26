@@ -1,7 +1,7 @@
 “I am Marc Doctor, student of the Bachelor’s Degree in Video Games by UPC at [CITM](https://www.citm.upc.edu/ing/estudis/graus-videojocs/). This content is generated for the second year’s subject Project 2, under supervision of lecturer [Ricard Pillosu](https://www.linkedin.com/in/ricardpillosu/?originalSubdomain=es).”
 
 # INTRO
-The approch is this research is to let developers be able to recognizes types of AI in their rames, and then letting them know design solutions to structure them, and to make interactions with the player. Lastly, there is a section to cover how AI is managed code-wise to extrapolate a single NPC behaviour to a whole NPC community. 
+The approach is this research is to let developers be able to recognize types of AI in their games, and then letting them know design solutions to structure them, while taking into account the interactions with the player. Lastly, there is a section to cover how AI is managed code-wise to extrapolate a single NPC behaviour to a whole NPC community. 
 
 # Types of AI in RPGs 
 
