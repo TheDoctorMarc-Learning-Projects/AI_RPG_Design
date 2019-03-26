@@ -188,6 +188,7 @@ Therefore, the enemy has a **“field of view”**, which can be represented as 
 Depending of how many enemies are within a single group, the FOV will increase / decrease. In addition, certain formations are more prone to be used with enemies of different behaviours. 
 
 **Wedge Formation:** 
+
 <img src=https://raw.githubusercontent.com/thedoctormarc/AI_RPG_Design/master/Images/wedge.gif>
 This formation is useful because every enemy in the outside triangle can fire forwards without shooting to enemy allies, but the percentage reduces to a half when firing to the sides. 
 At the same time, it is hard to penetrate to the inside of the formation. 
@@ -204,6 +205,7 @@ Ideal to counter side attacks.
 
 **Line Formation:** 
 Ideal to counter frontal attacks. 
+
 <img src=https://raw.githubusercontent.com/thedoctormarc/AI_RPG_Design/master/Images/column_and_line.gif>
 
 
@@ -303,7 +305,7 @@ This is an advanced example of conditions that trigger a plan: the group strengt
 
 **Group Strenth:**
 
-<img src=https://raw.githubusercontent.com/thedoctormarc/AI_RPG_Design/master/Images/flocking.jpg>
+<img src=https://raw.githubusercontent.com/thedoctormarc/AI_RPG_Design/master/Images/group_Strenght.PNG.jpg>
 
 # References 
 
