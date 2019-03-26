@@ -309,7 +309,7 @@ This is an advanced example of conditions that trigger a plan: the group strengt
 
 # References 
 
-[AI Players](http://virt10.itu.chalmers.se/index.php/AI_Players)
+..* [AI Players](http://virt10.itu.chalmers.se/index.php/AI_Players)
 [Algorithmic Agents](http://virt10.itu.chalmers.se/index.php/Algorithmic_Agents)
 [Agents](http://virt10.itu.chalmers.se/index.php/Agents) 
 [Thematic Consistency](http://virt10.itu.chalmers.se/index.php/Thematic_Consistency) 
