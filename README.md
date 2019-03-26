@@ -3,7 +3,7 @@
 # INTRO
 The approch is this research is to let developers be able to recognizes types of AI in their rames, and then letting them know design solutions to structure them, and to make interactions with the player. Lastly, there is a section to cover how AI is managed code-wise to extrapolate a single NPC behaviour to a whole NPC community. 
 
-# TYPES OF AI IN RPG 
+# Types of AI in RPGs 
 
 ## General terms 
 **Agent**:
