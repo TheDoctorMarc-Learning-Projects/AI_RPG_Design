@@ -28,9 +28,11 @@ Example: The classic example  is the racing game where AI cars catch the player 
 ## More targeted AI + distinctions: 
 **Mules**
 Two definitions: 
+
 **1)** AI that takes over the player for a particular action or set of actions. 
 An example would be if you have to craft any 
 Another example would be in a terror game, when you have entered a safe zone, the AI can take  the control of the player movement momentarily. 
+
 **2)**   AI with the mere purpose of transporting the player avatar items. 
 
 
@@ -86,9 +88,11 @@ Each pattern is a type of AI that has got an objective, or test, and the most in
 
 ### Adversary  
 One must differenciate the Enemy with the Opponent. 
+
 **Enemy:** a simple agent that attacks the player. In RPG’s it is common that they provide loot once killed. 
 Agents of this type test the player’s combat ability. 
 Example: a skeleton in a dungeon crawler. 
+
 **Opponent:**
 _ Does not have to directly interact with the player 
 _ More complex behaviour 
@@ -177,13 +181,14 @@ A common scheme is the **encounter**: a tank, or big enemy, surrounded by weaker
 Once a group of enemies is defined, the developer must decide how the group movement will be achieved. That is to say: 
 Enemies are **aware of other enemies in the group**. 
 Therefore, the enemy has a **“field of view”**, which can be represented as an area around them, which can vary in size, thus depending on how you want a certain group to behave, enemies within the group will have a larger or smaller F.OV. 
-
+<img src=https://raw.githubusercontent.com/thedoctormarc/AI_RPG_Design/master/Images/flocking.jpg>
 
 
 ## Types of formations: 
 Depending of how many enemies are within a single group, the FOV will increase / decrease. In addition, certain formations are more prone to be used with enemies of different behaviours. 
 
 **Wedge Formation:** 
+<img src=https://raw.githubusercontent.com/thedoctormarc/AI_RPG_Design/master/Images/wedge.gif>
 This formation is useful because every enemy in the outside triangle can fire forwards without shooting to enemy allies, but the percentage reduces to a half when firing to the sides. 
 At the same time, it is hard to penetrate to the inside of the formation. 
 Useful for long-range enemies. 
@@ -191,11 +196,12 @@ Useful for long-range enemies.
 
 **Diamond Formation:** 
 
-
+<img src=https://raw.githubusercontent.com/thedoctormarc/AI_RPG_Design/master/Images/diamond_formation.png>
 Specially useful for games with 8 directions as it cover the 4 flanks equally. 
 
-**Step / vertical Formation:** 
+**Column Formation:** 
 Ideal to counter side attacks. 
+
 **Line Formation:** 
 Ideal to counter frontal attacks. 
 <img src=https://raw.githubusercontent.com/thedoctormarc/AI_RPG_Design/master/Images/column_and_line.gif>
@@ -204,20 +210,27 @@ Ideal to counter frontal attacks.
 ## Spawning
 ### The “problem”
 All these enemies have a level and a location in the map, but the wrong management of these variables can lead to an irritating gameplay: 
+
 **“Random Encounters”:** games and sagas  such as Dragon Quest or Pokémon have a particular management of these enemies’ spawning: it is (almost) aleatory. 
 
 Sometimes, these enemies are invisible (Pokémon) and in other cases the may be hard to avoid (Dragon Quest) because of the number of enemies wandering around without apparent purpose and that the fight triggers within a broad “triggering area”. 
 
 In response of this, the developer may 
+
 **1)** script larger themed enemy areas (The Witcher), with a strong enemy-environment relation, or they can either
+
 **2)** use randomness to a certain point and only then it becomes scripted, or ...
+
 **3)** use “In_Field enemies”: 
+
 **In-Field enemies** are enemies that are marked with an icon / symbol in the map so as to give the player the chance to avoid them. Be aware of this technique drawback: letting the player avoid too many enemies, and make it impossible to avoid some of them. 
 
 ## Common Attacks 
 ### Waves 
 These enemies can attack in the form of waves, meaning that the whole group attacks the player at the same time. The two main variants are: 
-**1)** The long range group, that attacks while keeping the formation and position. 
+
+**1)** The long range group, that attacks while keeping the formation and position.
+
 **2)** The melee group goes towards the player while keeping the formation. Once it gets to the player, it can A) still maintain the formation, or B) surround the player, 
 
 ### Hit and Run 
@@ -278,8 +291,7 @@ If a condition of a plan is not valid, the plan is discarded and the planning pr
 
 
 
-
-
+<img src=https://raw.githubusercontent.com/thedoctormarc/AI_RPG_Design/master/Images/htn_scheme.PNG>
 
 
 ### How to approach the plan conditions in a Group of Enemies:  
@@ -289,6 +301,9 @@ If a condition of a plan is not valid, the plan is discarded and the planning pr
 
 This is an advanced example of conditions that trigger a plan: the group strength, the player direction and the distance to the player. This scheme is a simple ampliation of two conditions (player direction and position) proper of a single-enemy scheme, but with the added group strength. 
 
+**Group Strenth:**
+
+<img src=https://raw.githubusercontent.com/thedoctormarc/AI_RPG_Design/master/Images/flocking.jpg>
 
 # References 
 
