@@ -198,7 +198,7 @@ Specially useful for games with 8 directions as it cover the 4 flanks equally.
 Ideal to counter side attacks. 
 **Line Formation:** 
 Ideal to counter frontal attacks. 
-
+<img src=https://raw.githubusercontent.com/thedoctormarc/AI_RPG_Design/master/Images/column_and_line.gif>
 
 
 ## Spawning
