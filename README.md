@@ -285,7 +285,7 @@ If a condition of a plan is not valid, the plan is discarded and the planning pr
 ### How to approach the plan conditions in a Group of Enemies:  
 
 
-
+<img src=https://github.com/thedoctormarc/AI_RPG_Design/blob/master/Images/Example_Behaviour.PNG>
 
 This is an advanced example of conditions that trigger a plan: the group strength, the player direction and the distance to the player. This scheme is a simple ampliation of two conditions (player direction and position) proper of a single-enemy scheme, but with the added group strength. 
 
