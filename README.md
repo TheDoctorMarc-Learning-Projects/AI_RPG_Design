@@ -10,7 +10,7 @@ The approach is this research is to let developers be able to recognize types of
 A game entity that tries to achieve a goal.
 
 **Algorithmic Agents**: 
-Code that provides intentional behaviour to agents (NPC’s, animals, enemies…).
+This concept refers not actually to a proper physical entity, but intead to the code that provides intentional behaviour to agents (NPC’s, animals, enemies…).
 
 **AI Players**: 
 Agents that act as players (they mimic their behaviour) and usually are opponents.
