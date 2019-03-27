@@ -13,7 +13,7 @@ A game entity that tries to achieve a goal.
 This concept refers not actually to a proper physical entity, but intead to the code that provides intentional behaviour to agents (bots, animals, enemies…).
 
 **AI Players**: 
-Agents that act as players (they mimic their behaviour) and usually are opponents.
+Agents that act as players (they can mimic their behaviour) and usually are opponents.
 (This can be used in a local game mode).
 
 **NPCs**: 
@@ -42,10 +42,11 @@ In a game, this two figures can either appear overlapped or separated.
 
 ### Friends: Sidekick vs Ally vs Companion
 **Sidekick**
-A sidekick gives the player all sorts of help: item / enemy locations, resources… But it is not common that this agent enters combat to aid the player. 
+A sidekick gives the player all sorts of help: item / enemy locations, resources… But it is not common that this agent enters combat to aid the player. They usually appear individually. 
 
 **Ally**
 The ally, in addition to the sidekick, also helps the player in combat. Moreover, whilst the sidekick may remain in a certain spot even if the player continues progressing, the ally does usually have the role of being part of an attack squad, or troop, being the exact opposite of the “enemy” type. 
+They form groups of many individuals. 
 
 **Companion**
 What distinguishes companions from the two above types is that they can be controlled by the player. 
