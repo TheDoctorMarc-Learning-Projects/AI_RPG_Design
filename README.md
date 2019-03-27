@@ -167,7 +167,7 @@ Examples would be the trolls of God of War,
 
 A **difference with a common miniboss** is that the miniboss may not be a **recurring enemy**. Furthermore, they sometimes have a relationship between themselves that, only when the player kills all of them, (s)he is rewarded or/and discovers a narrative secret. 
 
-2) **The second one** corresponds to the summation of single common enemies that conform a group. 
+2) **The second one** corresponds to the summation of single common enemies that conform a group, with or without leader. 
 
 A typical model is the **patrol**. This enemy group goes from point A to point B repeatedly, unless the player comes nearby. 
 
