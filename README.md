@@ -125,12 +125,12 @@ Sometimes NPC are programmed and sealed at development time.
 Nevertheless, there is the possibility to give the player the chance to alter the AI. 
 Usually the player can only customize his items, weapons and stats. Using this concept, the player has also got access to the mentioned elements, but now the ones that belong to NPCs. 
 
-This type of AI tests the player’s
+This type of AI **tests the player’s capability to manage the NPC community in his favour.**
 
 
 ### Visible
 Visible AI refers to any hint given by the game of NPCs actions or behaviour. The most common uses are when the enemy positions are revealed to the player using an symbol in a minimap. A more advanced technique would be to reveal enemies’ traces or pathfinding routes. 
-**This type of AI tests the player’s spatial awareness, reactions, and environment management.** 
+This type of AI **tests the player’s spatial awareness, reactions, and environment management.** 
 
 [link](http://julian.togelius.com/Treanor2015AIBased.pdf)  
 
