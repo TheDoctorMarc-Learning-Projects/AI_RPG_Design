@@ -80,7 +80,7 @@ An example would be Fallout 4 and the fact that depending on the character’s a
 
 [link](https://www.researchgate.net/publication/303496966_The_Non-Player_Character_Exploring_the_believability_of_NPC_presentation_and_behavior) 
 
-# Uses of the different ypes 
+# Functions of AI  
 
 ## Design Patterns: 
 
