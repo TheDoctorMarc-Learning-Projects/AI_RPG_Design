@@ -194,13 +194,13 @@ Depending of how many enemies are within a single group, the FOV will increase /
 <img src=https://raw.githubusercontent.com/thedoctormarc/AI_RPG_Design/master/Images/wedge.gif>
 This formation is useful because every enemy in the outside triangle can fire forwards without shooting to enemy allies, but the percentage reduces to a half when firing to the sides. 
 At the same time, it is hard to penetrate to the inside of the formation. 
-Useful for long-range enemies. 
+Useful for long-range enemies and groups with leader. 
 
 
 **Diamond Formation:** 
 
 <img src=https://raw.githubusercontent.com/thedoctormarc/AI_RPG_Design/master/Images/diamond_formation.png>
-Specially useful for games with 8 directions as it cover the 4 flanks equally. 
+Specially useful for games with 4 directions as it cover the 4 flanks equally. Also useful to protect another enemy or item inside 
 
 **Column Formation:** 
 Ideal to counter side attacks. 
