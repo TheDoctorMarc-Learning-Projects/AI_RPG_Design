@@ -1,4 +1,4 @@
-“I am Marc Doctor, student of the Bachelor’s Degree in Video Games by UPC at [CITM](https://www.citm.upc.edu/ing/estudis/graus-videojocs/). This content is generated for the second year’s subject Project 2, under supervision of lecturer [Ricard Pillosu](https://www.linkedin.com/in/ricardpillosu/?originalSubdomain=es).”
+“I am [Marc Doctor](https://www.linkedin.com/in/marc-doctor-pedrosa-28013a182/), student of the Bachelor’s Degree in Video Games by UPC at [CITM](https://www.citm.upc.edu/ing/estudis/graus-videojocs/). This content is generated for the second year’s subject Project 2, under supervision of lecturer [Ricard Pillosu](https://www.linkedin.com/in/ricardpillosu/?originalSubdomain=es).”
 
 # INTRO
 The approach is this research is to let developers be able to recognize types of AI in their games, and then letting them know design solutions to structure them, while taking into account the interactions with the player. Lastly, there is a section to cover how AI is managed code-wise to extrapolate a single NPC behaviour to a whole NPC community. 
@@ -65,7 +65,8 @@ Vendors are placed in a building, indoors, whilst QuestGivers are located outdoo
 
 **3)** They can be classified in the **“Act React Interact”** model: 
 
-<img src=https://raw.githubusercontent.com/thedoctormarc/AI_RPG_Design/master/docs/actreactetc.PNG>
+<img src=docs/actreactetc.PNG>
+![](actreactetc.png)
 
 **Act:** NPCs that fall inside this category are programmed in an unidirectional manner: they only care about the player, and they have a very specific mission with almost no room for behaviour changes.  
 
@@ -268,12 +269,12 @@ The HTS has got a World State, that contains all the variables related to NPC’
 These tasks have an effect in the world and are tracked by sensors. This event is communicated to the World State thanks to the sensors. 
 
 **Tasks**
-Tasks have conditions that triggers them, and they also have operators, which are the meanings of the tasks translated in terms of HTS. 
+Tasks have **conditions** that triggers them, and they also have **operators**, which are the meanings of the tasks translated in terms of HTS. 
 Two different tasks can have the same operator: 
 
-task 1 = 
-task 2 = 
-operator = 
+1) task 1 = Jump over the tree
+2) task 2 = Jump over the rock
+3) operator = Jump
 
 These tasks can be **primitive**, like punching the player, or **compound**: 
 Compound tasks involve different methods of solving them, and each one has each own conditions and subtasks. 
