@@ -308,6 +308,7 @@ This is an advanced example of conditions that trigger a plan: the group strengt
 
 **Group Strength:**
 
+An example of group strength calculation:
 <img src=https://raw.githubusercontent.com/thedoctormarc/AI_RPG_Design/master/Images/group_Strenght.PNG>
 
 # References 
