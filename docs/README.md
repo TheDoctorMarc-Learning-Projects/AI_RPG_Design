@@ -65,7 +65,7 @@ Vendors are placed in a building, indoors, whilst QuestGivers are located outdoo
 
 **3)** They can be classified in the **“Act React Interact”** model: 
 
-<img src=https://raw.githubusercontent.com/thedoctormarc/AI_RPG_Design/master/docs/actreactetc.PNG>
+<img src=https://raw.githubusercontent.com/thedoctormarc/AI_RPG_Design/master/docs/actreactetc.png?raw=true>
 
 **Act:** NPCs that fall inside this category are programmed in an unidirectional manner: they only care about the player, and they have a very specific mission with almost no room for behaviour changes.  
 
