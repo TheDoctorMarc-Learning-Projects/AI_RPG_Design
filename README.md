@@ -271,9 +271,9 @@ These tasks have an effect in the world and are tracked by sensors. This event i
 Tasks have conditions that triggers them, and they also have operators, which are the meanings of the tasks translated in terms of HTS. 
 Two different tasks can have the same operator: 
 
-task 1 = 
-task 2 = 
-operator = 
+task 1 = Jump over the tree
+task 2 = Jump over the rock
+operator = Jump
 
 These tasks can be **primitive**, like punching the player, or **compound**: 
 Compound tasks involve different methods of solving them, and each one has each own conditions and subtasks. 
