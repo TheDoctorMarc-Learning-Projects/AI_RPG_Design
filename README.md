@@ -268,7 +268,7 @@ The HTS has got a World State, that contains all the variables related to NPC’
 These tasks have an effect in the world and are tracked by sensors. This event is communicated to the World State thanks to the sensors. 
 
 **Tasks**
-Tasks have conditions that triggers them, and they also have operators, which are the meanings of the tasks translated in terms of HTS. 
+Tasks have **conditions** that triggers them, and they also have **operators**, which are the meanings of the tasks translated in terms of HTS. 
 Two different tasks can have the same operator: 
 
 1) task 1 = Jump over the tree
