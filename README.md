@@ -184,7 +184,7 @@ A common scheme is the **encounter**: a tank, or big enemy, surrounded by weaker
 Once a group of enemies is defined, the developer must decide how the group movement will be achieved. That is to say: 
 Enemies are **aware of other enemies in the group**. 
 Therefore, the enemy has a **“field of view”**, which can be represented as an area around them, which can vary in size, thus depending on how you want a certain group to behave, enemies within the group will have a larger or smaller F.OV. 
-<img src=https://raw.githubusercontent.com/thedoctormarc/AI_RPG_Design/master/Images/flocking.jpg>
+
 <img src=docs/flocking.PNG> 
 
 ## Types of formations: 
@@ -192,7 +192,6 @@ Depending of how many enemies are within a single group, the FOV will increase /
 
 **Wedge Formation:** 
 
-<img src=https://raw.githubusercontent.com/thedoctormarc/AI_RPG_Design/master/Images/wedge.gif>
 <img src=docs/wedge.gif> 
 
 This formation is useful because every enemy in the outside triangle can fire forwards without shooting to enemy allies, but the percentage reduces to a half when firing to the sides. 
@@ -202,7 +201,6 @@ Useful for long-range enemies and groups with leader.
 
 **Diamond Formation:** 
 
-<img src=https://raw.githubusercontent.com/thedoctormarc/AI_RPG_Design/master/Images/diamond_formation.png>
 <img src=docs/diamond_formation.gif>  
 
 Specially useful for games with 4 directions as it cover the 4 flanks equally. Also useful to protect another enemy or item inside 
@@ -213,7 +211,6 @@ Ideal to counter side attacks.
 **Line Formation:** 
 Ideal to counter frontal attacks. 
 
-<img src=https://raw.githubusercontent.com/thedoctormarc/AI_RPG_Design/master/Images/column_and_line.gif>
 <img src=docs/column_and_line.gif> 
 
 ## Spawning
@@ -300,13 +297,11 @@ If a condition of a plan is not valid, the plan is discarded and the planning pr
 
 
 
-<img src=https://raw.githubusercontent.com/thedoctormarc/AI_RPG_Design/master/Images/htn_scheme.PNG>
 <img src=docs/htn_scheme.PNG>  
 
 ### How to approach the plan conditions in a Group of Enemies:  
 
 
-<img src=https://github.com/thedoctormarc/AI_RPG_Design/blob/master/Images/Example_Behaviour.PNG>
 <img src=docs/Example_Behaviour.PNG>  
 
 This is an advanced example of conditions that trigger a plan: the group strength, the player direction and the distance to the player. This scheme is a simple ampliation of two conditions (player direction and position) proper of a single-enemy scheme, but with the added group strength. 
@@ -314,7 +309,7 @@ This is an advanced example of conditions that trigger a plan: the group strengt
 **Group Strength:**
 
 An example of group strength calculation:
-<img src=https://raw.githubusercontent.com/thedoctormarc/AI_RPG_Design/master/Images/group_Strenght.PNG>
+
 <img src=docs/group_Strenght.PNG>   
 
 # References 
