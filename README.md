@@ -185,14 +185,14 @@ Once a group of enemies is defined, the developer must decide how the group move
 Enemies are **aware of other enemies in the group**. 
 Therefore, the enemy has a **“field of view”**, which can be represented as an area around them, which can vary in size, thus depending on how you want a certain group to behave, enemies within the group will have a larger or smaller F.OV. 
 
-<img src=docs/flocking.PNG> 
+<img src="docs/flocking.PNG?raw=true"/>
 
 ## Types of formations: 
 Depending of how many enemies are within a single group, the FOV will increase / decrease. In addition, certain formations are more prone to be used with enemies of different behaviours. 
 
 **Wedge Formation:** 
 
-<img src=docs/wedge.gif> 
+<img src="docs/wedge.gif?raw=true"/>
 
 This formation is useful because every enemy in the outside triangle can fire forwards without shooting to enemy allies, but the percentage reduces to a half when firing to the sides. 
 At the same time, it is hard to penetrate to the inside of the formation. 
@@ -201,7 +201,7 @@ Useful for long-range enemies and groups with leader.
 
 **Diamond Formation:** 
 
-<img src=docs/diamond_formation.gif>  
+<img src="docs/diamond_formation.gif?raw=true"/>
 
 Specially useful for games with 4 directions as it cover the 4 flanks equally. Also useful to protect another enemy or item inside 
 
@@ -211,7 +211,7 @@ Ideal to counter side attacks.
 **Line Formation:** 
 Ideal to counter frontal attacks. 
 
-<img src=docs/column_and_line.gif> 
+<img src="docs/column_and_line.gif?raw=true"/> 
 
 ## Spawning
 ### The “problem”
@@ -297,12 +297,12 @@ If a condition of a plan is not valid, the plan is discarded and the planning pr
 
 
 
-<img src=docs/htn_scheme.PNG>  
+<img src="docs/htn_scheme.PNG?raw=true"/> 
 
 ### How to approach the plan conditions in a Group of Enemies:  
 
 
-<img src=docs/Example_Behaviour.PNG>  
+<img src="docs/Example_Behaviour.PNG?raw=true"/> 
 
 This is an advanced example of conditions that trigger a plan: the group strength, the player direction and the distance to the player. This scheme is a simple ampliation of two conditions (player direction and position) proper of a single-enemy scheme, but with the added group strength. 
 
@@ -310,7 +310,8 @@ This is an advanced example of conditions that trigger a plan: the group strengt
 
 An example of group strength calculation:
 
-<img src=docs/group_Strenght.PNG>   
+<img src="docs/group_Strenght.PNG?raw=true"/> 
+
 
 # References 
 
