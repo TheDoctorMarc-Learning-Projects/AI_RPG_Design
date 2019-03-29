@@ -185,7 +185,7 @@ Once a group of enemies is defined, the developer must decide how the group move
 Enemies are **aware of other enemies in the group**. 
 Therefore, the enemy has a **“field of view”**, which can be represented as an area around them, which can vary in size, thus depending on how you want a certain group to behave, enemies within the group will have a larger or smaller F.OV. 
 
-<img src="docs/flocking.PNG?raw=true"/>
+<img src="docs/flocking.jpg?raw=true"/>
 
 ## Types of formations: 
 Depending of how many enemies are within a single group, the FOV will increase / decrease. In addition, certain formations are more prone to be used with enemies of different behaviours. 
