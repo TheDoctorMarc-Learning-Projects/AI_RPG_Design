@@ -97,13 +97,13 @@ Agents of this type test the player’s combat ability.
 Example: a skeleton in a dungeon crawler. 
 
 **Opponent:**
-_ Does not have to directly interact with the player 
-_ More complex behaviour 
-_ “Faceless enemy” 
-_ The subtype **“Manipulator”** has goals of his own
-_ The subtype **“Manipulator”** may have a relation with the narrative 
-_ **Wants to slow down the player’s progression** 
-Agents of this type **test the player’s capacity to develop new strategies.** 
+1) Does not have to directly interact with the player 
+2) More complex behaviour 
+3) “Faceless enemy” 
+4) The subtype **“Manipulator”** has goals of his own
+5) The subtype **“Manipulator”** may have a relation with the narrative 
+6) **Wants to slow down the player’s progression** 
+7) Agents of this type **test the player’s capacity to develop new strategies.** 
 
 
 Example: 
